@@ -1,0 +1,15 @@
+[package]
+name = "xr-spike"
+description = "M0 risk spike: prove the Linux -> OpenXR -> Quest display path works."
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+openxr.workspace = true
+ash.workspace = true
+anyhow.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
