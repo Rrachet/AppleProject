@@ -1,0 +1,17 @@
+# Keeps dependencies current: weekly grouped minor and patch updates, majors one at a time.
+# Security updates arrive as soon as an advisory is published, regardless of this schedule.
+version: 2
+updates:
+  - package-ecosystem: cargo
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 3
