@@ -9,7 +9,7 @@ license = "MIT"
 repository = "https://github.com/Rrachet/AppleProject"
 
 [workspace.dependencies]
-openxr = "0.21"
+openxr = "0.22"
 ash = "0.38"
 anyhow = "1"
 tracing = "0.1"
